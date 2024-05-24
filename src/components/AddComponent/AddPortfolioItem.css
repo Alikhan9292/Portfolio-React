@@ -1,0 +1,23 @@
+/* AddProjectComponent.css */
+.main {
+    padding-top: 100px;  /* Отступ сверху, адаптируйте размер в зависимости от высоты вашего header */
+}
+.add-project-container {
+    padding-top: 70px; /* Отступ сверху, значение зависит от высоты вашего header */
+    padding-bottom: 50px; /* Отступ снизу, значение зависит от высоты вашего footer */
+    min-height: 80vh; /* Минимальная высота, чтобы контент был видим полностью */
+    display: flex;
+    justify-content: center; /* Центрирование формы */
+    align-items: center; /* Выравнивание по вертикали */
+}
+
+/* Стили для формы */
+.add-project-form {
+    width: 100%; /* или конкретная ширина в px/ем если нужно */
+    max-width: 500px; /* Максимальная ширина формы */
+    margin: auto; /* Автоматические отступы для центрирования формы */
+    padding: 20px; /* Паддинг внутри формы */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Тень для формы */
+    background-color: white; /* Фон формы */
+    border-radius: 8px; /* Скругление углов */
+}
